@@ -270,7 +270,13 @@ body{color:#807D77; background-color:#202020;}
 
 /* Footer */
 #footer h2.title{color:#FFFFFF; background-color:#222222;}
-#footer nav ul li a{background:url("images/white_file.gif") no-repeat left center;}
+#footefootercenterr nav ul li a{background:url("images/white_file.gif") no-repeat left center;}
+.footercenter {
+
+    margin-left: auto ;
+    margin-right: auto ;
+    background-color: transparent;
+}
 
 
 /* Forms */

@@ -1,20 +1,15 @@
 
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <div class="wrapper row4">
-  <footer id="footer" class="clear">
+  <footer id="footer" class="footercenter clear">
     <!-- ################################################################################################ -->
+
     <div class="one_quarter first">
-      <h2 class="title">From The Blog</h2>
-      <article>
-        <div class="header">
-          <h2><a href="#">Blog Post Title</a></h2>
-          <time datetime="2000-04-06">Friday, 6<sup>th</sup> April 2000</time>
-        </div>
-        <p>Vestibulumaccumsan egestibulum eu justo convallis augue estas aenean elit intesque sed, facilispede estibulum nulla orna nisl velit elit ac.</p>
-        <p>Aliquat non tincidunt namjusto cras urna urnaretra lor urna neque sed.</p>
-      </article>
+      <h2 class="title">Store Hours</h2>
+      Monday - Friday: 10 - 7<br/>
+      Saturday - Sunday 10 - 5
     </div>
-    <div class="one_quarter">
+    <%--<div class="one_quarter">
       <h2 class="title">Quick Links</h2>
       <nav>
         <ul>
@@ -27,22 +22,21 @@
           <li><a href="#">Suspendisse in neque</a></li>
         </ul>
       </nav>
-    </div>
+    </div>--%>
     <div class="one_quarter">
       <h2 class="title">Company Details</h2>
       <address>
-      Company Name<br>
-      Street Name &amp; Number<br>
-      Address Line Two<br>
-      Town<br>
-      Postcode/Zip
+      Gemstone Jewelers<br>
+      123 Test Drive<br>
+      Dixon IL.<br>
+      61021/Zip
       </address>
-      <p>Tel: xxxxx xxxxxxxxxx<br>
-        Fax: xxxxx xxxxxxxxxx<br>
-        Email: <a href="#">contact@mydomain.com</a></p>
+      <p>Tel: 800.555.5555<br>
+        Fax: 800.555.5554<br>
+        Email: <a href="#">contact@gemstonejewlers.com</a></p>
     </div>
     <div class="one_quarter">
-      <h2 class="title">Grab Our Newsletter</h2>
+      <h2 class="title">Request a Catalog</h2>
       <form method="post" action="#">
         <fieldset>
           <legend>Newsletter Form:</legend>
@@ -53,15 +47,9 @@
           <button type="submit" value="submit">Submit</button>
         </fieldset>
       </form>
-      <ul class="social">
-        <li><a href="#"><img src="web/images/images_Revelation/icons/1.gif" alt=""></a></li>
-        <li><a href="#"><img src="web/images/images_Revelation/icons/1.gif" alt=""></a></li>
-        <li><a href="#"><img src="web/images/images_Revelation/icons/1.gif" alt=""></a></li>
-        <li><a href="#"><img src="web/images/images_Revelation/icons/1.gif" alt=""></a></li>
-        <li><a href="#"><img src="web/images/images_Revelation/icons/1.gif" alt=""></a></li>
-      </ul>
     </div>
     <!-- ################################################################################################ -->
+
   </footer>
 </div>
 <!-- ################################################################################################ -->
@@ -70,22 +58,22 @@
 <div class="wrapper row5">
   <div id="copyright" class="clear">
     <!-- ################################################################################################ -->
-    <p class="fl_left">Copyright &copy; 2014 - All Rights Reserved - <a href="#">Domain Name</a></p>
-    <p class="fl_right">Template by <a target="_blank" href="http://www.os-templates.com/" title="Free Website Templates">OS Templates</a></p>
+    <p class="fl_left">Copyright &copy; 2014 - All Rights Reserved - <a href="/welcome.action">Gemstone Jewelers</a></p>
+
     <!-- ################################################################################################ -->
   </div>
 </div>
 <!-- JAVASCRIPTS -->
 <!-- <script src="http://code.jquery.com/jquery-latest.min.js"></script> -->
-<script src="web/layout/layout_Revelation/scripts/jquery-latest.min.js"></script>
-<script src="web/layout/layout_Revelation/scripts/jquery-defaultvalue.js"></script>
+<script src="/layout/layout_Revelation/scripts/jquery-latest.min.js"></script>
+<script src="/layout/layout_Revelation/scripts/jquery-defaultvalue.js"></script>
 <script>
 $(document).ready(function () {
     $("#nl_name, #nl_email").defaultvalue("Name", "Email Address");
 });
 </script>
 <!-- homepage slider -->
-<script src="web/layout/layout_Revelation/scripts/flexslider/jquery.flexslider-min.js"></script>
+<script src="/layout/layout_Revelation/scripts/flexslider/jquery.flexslider-min.js"></script>
 <script>
 $(window).load(function () {
     $('.flexslider').flexslider({

@@ -12,7 +12,7 @@ Licence URI: http://www.os-templates.com/template-terms
 <head>
 <title>Gemstone Jewelers</title>
 <meta charset="utf-8">
-<link href="web/layout/layout_Revelation/styles/layout.css" rel="stylesheet" type="text/css" media="all">
+<link href="/layout/layout_Revelation/styles/layout.css" rel="stylesheet" type="text/css" media="all">
 </head>
 <body id="top">
 <!-- ################################################################################################ -->
@@ -44,10 +44,10 @@ Licence URI: http://www.os-templates.com/template-terms
         <li class="active"><a href="index.html">Home</a></li>
         <li><a class="drop" href="#">Pages</a>
           <ul>
-            <li><a href="web/jsp/gallery.html">Gallery</a></li>
-            <li><a href="web/jsp/full-width.html">Full Width</a></li>
-            <li><a href="web/jsp/sidebar-left.html">Sidebar Left</a></li>
-            <li><a href="web/jsp/sidebar-right.html">Sidebar Right</a></li>
+            <li><a href="/jsp/template_Revelation/gallery.jsp">Gallery</a></li>
+            <li><a href="/jsp/full-width.html">Full Width</a></li>
+            <li><a href="/jsp/sidebar-left.html">Sidebar Left</a></li>
+            <li><a href="/jsp/sidebar-right.html">Sidebar Right</a></li>
           </ul>
         </li>
         <li><a href="#">Link Text</a></li>
